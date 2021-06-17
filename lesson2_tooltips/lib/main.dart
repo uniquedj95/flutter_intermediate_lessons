@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lesson2_tooltips/tooltip_example.dart';
+import 'package:lesson2_tooltips/chips_example.dart';
+// import 'package:lesson2_tooltips/tooltip_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.teal,
       ),
-      home: TooltipExample(title: "TOOLTIP EXAMPLE"),
+      // home: TooltipExample(title: "TOOLTIP EXAMPLE"),
+      home: ChipsExample(title: "Chips Example"),
     );
   }
 }
